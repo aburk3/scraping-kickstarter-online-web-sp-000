@@ -8,3 +8,5 @@ def create_project_hash
 end
 
 kickstarter = Nokogiri::HTML(html)
+
+create_project_hash
